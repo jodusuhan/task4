@@ -1,0 +1,36 @@
+.container{
+    background-color:rgb(12, 10, 10);
+    padding:10px;
+    font-size: 1.5rem;
+    display:flex;
+    flex-wrap:flex;
+}
+
+
+.box1 {
+    background-color: rgb(229, 129, 129);
+}
+
+.box2 {
+    background-color:rgb(140, 140, 198)
+}
+
+.box3 {
+    background-color: rgb(155, 218, 155);
+}
+
+
+@media only screen and (min-width:500px) and (max-width:700px) {
+  .box1{
+    background-color:aliceblue ;
+
+  }
+}
+@media only screen and(orientation:landscape) {
+    .box2{
+        background-color: rgb(171, 171, 129);
+    }
+}
+@media only screen and (max-wudth ) {
+    
+}
